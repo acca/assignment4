@@ -31,3 +31,5 @@
 /mavenproject1/target/
 a4clientdb
 derby.log
+a4serverdb
+a4Client/lib/

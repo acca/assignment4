@@ -7,15 +7,12 @@ package it.unitn.dsantoro.a4client;
 
 import it.unitn.dsantoro.a4server.TradeRemote;
 import java.io.IOException;
-import java.util.List;
 import java.util.Properties;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
 
 /**
  *
@@ -26,8 +23,6 @@ public class Client {
     private TradeRemote trade = null;
     private InitialContext initialContext = null;
     private static final String USER_MSG = "--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: ";
-    private static final float NOMINAL_PRICE = 10;
-    private SessionFactory sessionFactory;
 
     public Client() throws NamingException {
         setupRemoteTrade();     
@@ -38,15 +33,7 @@ public class Client {
      * @throws javax.naming.NamingException
      */
     public static void main(String[] args) throws NamingException {
-        Client client = new Client();        
-        User user = new User();        
-        Session session = HibernateUtil.getSessionFactory().openSession();
-        session.beginTransaction();
-        session.save(user);
-        user = client.readDb(user);
-        user.toString();
-        session.getTransaction().commit();
-        session.close();        
+        Client client = new Client();
         
         System.out.println(USER_MSG);
         
@@ -59,15 +46,19 @@ public class Client {
                     switch((char)ch){
                         case 's':
                         case 'S':
-                            client.sell(user);
+                            System.out.println("\tUser choose to sell. Default stocks amount is 10");
+                            System.out.println(client.trade.sell());
                             break;
                         case 'b':
                         case 'B':
-                            client.buy(user);
+                            System.out.println("\tUser choose to buy. Default stocks amount is 10");
+                            System.out.println(client.trade.buy());
                             break;
                         case 'l':
                         case 'L':
-                            client.printUserOperation(user);
+                            System.out.println("\tUser choose to list the business transactions");
+                            System.out.println(client.trade.list());
+                            //client.printUserOperation(user);
                             break;
                         case 'q':
                         case 'Q':
@@ -78,7 +69,6 @@ public class Client {
                     }
                     System.out.println(USER_MSG);
                 }
-            
             }
         } catch (IOException ex) {
             Logger.getLogger(Client.class.getName()).log(Level.SEVERE, null, ex);
@@ -103,93 +93,8 @@ public class Client {
         this.trade = (TradeRemote) initialContext.lookup("java:a4Server-ear-1.0-SNAPSHOT/a4Server-ejb-1.0-SNAPSHOT/Trade!it.unitn.dsantoro.a4server.TradeRemote");
     }
 
-    private void sell(User user) {
-        System.out.println("\tUser choose to sell. Default stocks amount is 10");
-        user = readDb(user);
-        int userStocks = user.getStocksAmount();
-        if (userStocks < 10) {
-            System.out.println("\tUser can not sell since user stocks amount is less than the minium amount for sell: " + userStocks + " stocks left.");
-        }
-        else {
-            float tot = 0;
-            for (int i=0; i<10; i++){                
-                tot += this.trade.currentValue(NOMINAL_PRICE);
-            }
-            user.setStocksAmount(userStocks-10);
-            user.setMoney(user.getMoney() + tot);
-            saveDb(user);
-        }
-        System.out.println("\t"+user);
-    }
-
-    private void buy(User user) {
-        System.out.println("\tUser choose to buy. Default stocks amount is 10");
-        user = readDb(user);
-        float userMoney = user.getMoney();
-        float tot = 0;
-        for (int i=0; i<10; i++){                
-            tot += this.trade.currentValue(NOMINAL_PRICE);
-        }
-        if ( userMoney <= 0 || (userMoney < tot) ) {
-            System.out.println("\tUser can not buy since user money are not enough to buy a minimum amount of 10 stocks.\n" +
-                    "\tUser has: "+ userMoney + " euro left.\n" + 
-                    "\tTotal stocks price is: " + tot);
-        }
-        else {            
-            user.setStocksAmount(user.getStocksAmount()+10);
-            user.setMoney(userMoney - tot);
-            saveDb(user);
-        }
-        System.out.println("\t"+user);
-    }
-
+    
     private void releaseRemoteTrade() throws NamingException {
         this.initialContext.close();
-    }
-    
-    private void saveDb(User user) {
-        Session session = HibernateUtil.getSessionFactory().openSession();
-        session.beginTransaction();
-        session.save(user);
-        session.getTransaction().commit();
-        session.close();        
-    }
-    
-    private User readDb(User user) {                
-        Session session = HibernateUtil.getSessionFactory().openSession();
-        session.beginTransaction();
-        String query = "FROM User U WHERE U.id = " + user.getId();
-        List result = session.createQuery(query).list();
-        for ( User u : (List<User>) result ) {
-            if (u.getId().equals(user.getId())) {
-                user.setId(u.getId());
-                user.setMoney(u.getMoney());
-                user.setStocksAmount(u.getStocksAmount());
-            }
-            else {
-                System.err.println("Error in SELECT query from DB.");
-            }
-        }
-        session.getTransaction().commit();
-        session.close();
-        return user;
-    }
-    
-    private void printUserOperation(User user) {
-        System.out.println("\tList of all the oepration for user: " + user.getId());
-        Session session = HibernateUtil.getSessionFactory().openSession();
-        session.beginTransaction();
-        String query = "FROM User U WHERE U.id = " + user.getId();
-        List result = session.createQuery(query).list();
-        for ( User u : (List<User>) result ) {
-            if (u.getId().equals(user.getId())) { 
-                System.out.println("\tOperation ID: " + u.getIdOp() + " - Stocks: " + u.getStocksAmount() + " - Money: " + u.getMoney());
-            }
-            else {
-                System.err.println("Error in SELECT query from DB.");
-            }
-        }
-        session.getTransaction().commit();
-        session.close();        
     }
 }
