@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class dynamic-insert="false" dynamic-update="false" mutable="true" name="it.unitn.dsantoro.a3client.User" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="USERS">
+    <id name="idOp" column="USER_IDOP">
+        <generator class="increment"/>
+    </id>
+    <property name="money" type="float" column="USER_MONEY"/>
+    <property name="stocksAmount" type="int" column="USER_STOCKS"/>
+    <property name="id" type="long" column="USER_ID"/>
+  </class>
+</hibernate-mapping>
