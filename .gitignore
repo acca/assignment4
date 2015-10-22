@@ -1,4 +1,4 @@
-/a3Client/nbproject/private/# Ignore temporary files
+/a4Client/nbproject/private/# Ignore temporary files
 *~
 ._*
 *.DS_Store
@@ -14,18 +14,20 @@
 # Maven
 #log/
 #target/
-/a3Server/nbproject/private/
-/a3Server/a3Server-ejb/nbproject/private/
-/a3Client/build/
-/a3Client/dist/
-/a3Server/a3Server-ejb/build/
-/a3Server/build/
-/a3Server/a3Server-ejb/dist/
-/a3Server/dist/
-/a3Client/target/
-/a3Server/a3Server-ejb/target/
-/a3Server/a3Server-ear/target/
+/a4Server/nbproject/private/
+/a4Server/a4Server-ejb/nbproject/private/
+/a4Client/build/
+/a4Client/dist/
+/a4Server/a4Server-ejb/build/
+/a4Server/build/
+/a4Server/a4Server-ejb/dist/
+/a4Server/dist/
+/a4Client/target/
+/a4Server/a4Server-ejb/target/
+/a4Server/a4Server-ear/target/
 /JavaApplication6/nbproject/private/
 /JavaApplication6/build/
 /JavaApplication6/dist/
 /mavenproject1/target/
+a4clientdb
+derby.log
