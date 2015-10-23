@@ -7,8 +7,9 @@
 
   This application is in the domain of the web application that needs to retrieve features or functionality from a remote service. Indeed the application is composed by both *client* and *server* tiers.
 
-  In respect the the previous assignment, in this case:
-  /In other to keep track of the users transaction, the server also store in its database the information for each transaction./
+  In respect to the previous assignment, main difference is that:
+
+  /In other to keep track of users transaction, the server also store in its database the information for each business operation./
 
   I've deployed:
   - *The client side*: A Standard Java application (SE) which manages the sole interaction with the user, all other features in respect to assignment3  are now moved on the server side.
@@ -18,7 +19,7 @@
   The following are the most important changes in respect to previous assignment:
   - *UserRemote.java*: Class name is different to empathize it is instantiate on server-side. Indeed this class is no more on the client but on the EE project, deployed on JBoss.
   - *Sell/Buy*: Those methods now are remote methods. They are called from the client on the remote Bean therefore they are executed on server-side. These methods now return just the output strings back to the user.
-  - *build.sh script*: Just a useful script to automatize the process of /building client, building server, move .ear package on the application server and run the client/. This was useful during the development and testing phase.
+  - *build.sh script*: Just a useful script to automatize the process of /building client, building server, move EAR package on the application server and run the client/. This was useful during the development and testing phase.
 * Deployment
   In the repository are present two Netbeans project: /a4Client/ and /a4Server/.
 ** Requirements
@@ -73,8 +74,13 @@
    1) [[https://github.com/acca/assignment4/blob/master/logs/app-build%252Brun.txt][Application build and run output]]
    2) [[https://github.com/acca/assignment4/blob/master/logs/jboss-startup.txt][Application build and run output]]
    3) [[https://github.com/acca/assignment4/blob/master/logs/jboss-app.txt][JBoss output during application run]]
-   4) [[https://github.com/acca/assignment4/blob/master/logs/app-run.txt][Here is the clean output of a run]]:
+   4) [[https://github.com/acca/assignment4/blob/master/logs/app-run.txt][Here is the clean output of a run]]
    
    #+INCLUDE: "./logs/app-run.txt" example
 
 * Comments and notes
+  This is one of the possible implementation and it has its own limits:
+  1) It is /single client/ or /single user-client/. The same user (RemoteUser id variable) is instantiated by the remote bean therefore records in the database refers to the same user even tough many clients are accessing to it concurrently.
+    - In a /multi user-client/ implementation the user should be retrieved from a query on the DB and then instantiated by the bean.
+  2) Although for the above reasons it works fine also with a /stateless bean/ I've chosen to use a /stateful bean/ because it is not conceptually not good practice to instantiate instance variables in a /stateless bean/.
+  3) I've started to develop it in order to use the entities and the entity manager, simplifying a lot the persistence layer. Unfortunately I've found out some difficulties in configuring the external data source in Wildfly in order to use JPA and I've abandoned it for this project.
