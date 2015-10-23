@@ -1,0 +1,465 @@
+...
+2015-10-23 17:08:18,921 INFO  [stdout] (EJB default - 3) Hibernate: select remoteuser0_.USER_IDOP as USER_IDO1_0_, remoteuser0_.USER_MONEY as USER_MON2_0_, remoteuser0_.USER_STOCKS as USER_STO3_0_, remoteuser0_.USER_ID as USER_ID4_0_ from USERS remoteuser0_ where remoteuser0_.USER_ID=1
+2015-10-23 17:08:18,925 INFO  [stdout] (EJB default - 3) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:18,925 INFO  [stdout] (EJB default - 3) Stock nominal value: 10.0
+2015-10-23 17:08:18,926 INFO  [stdout] (EJB default - 3) Percentage applied: 1.0327104
+2015-10-23 17:08:18,926 INFO  [stdout] (EJB default - 3) Stock current value: 10.3
+2015-10-23 17:08:18,926 INFO  [stdout] (EJB default - 3) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:18,926 INFO  [stdout] (EJB default - 3) Stock nominal value: 10.0
+2015-10-23 17:08:18,926 INFO  [stdout] (EJB default - 3) Percentage applied: 1.016407
+2015-10-23 17:08:18,926 INFO  [stdout] (EJB default - 3) Stock current value: 10.1
+2015-10-23 17:08:18,926 INFO  [stdout] (EJB default - 3) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:18,926 INFO  [stdout] (EJB default - 3) Stock nominal value: 10.0
+2015-10-23 17:08:18,926 INFO  [stdout] (EJB default - 3) Percentage applied: 0.9500592
+2015-10-23 17:08:18,926 INFO  [stdout] (EJB default - 3) Stock current value: 9.5
+2015-10-23 17:08:18,927 INFO  [stdout] (EJB default - 3) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:18,927 INFO  [stdout] (EJB default - 3) Stock nominal value: 10.0
+2015-10-23 17:08:18,927 INFO  [stdout] (EJB default - 3) Percentage applied: 1.0228522
+2015-10-23 17:08:18,927 INFO  [stdout] (EJB default - 3) Stock current value: 10.2
+2015-10-23 17:08:18,927 INFO  [stdout] (EJB default - 3) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:18,927 INFO  [stdout] (EJB default - 3) Stock nominal value: 10.0
+2015-10-23 17:08:18,927 INFO  [stdout] (EJB default - 3) Percentage applied: 1.0123427
+2015-10-23 17:08:18,927 INFO  [stdout] (EJB default - 3) Stock current value: 10.1
+2015-10-23 17:08:18,927 INFO  [stdout] (EJB default - 3) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:18,927 INFO  [stdout] (EJB default - 3) Stock nominal value: 10.0
+2015-10-23 17:08:18,927 INFO  [stdout] (EJB default - 3) Percentage applied: 0.9959055
+2015-10-23 17:08:18,927 INFO  [stdout] (EJB default - 3) Stock current value: 9.9
+2015-10-23 17:08:18,927 INFO  [stdout] (EJB default - 3) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:18,927 INFO  [stdout] (EJB default - 3) Stock nominal value: 10.0
+2015-10-23 17:08:18,927 INFO  [stdout] (EJB default - 3) Percentage applied: 0.955708
+2015-10-23 17:08:18,927 INFO  [stdout] (EJB default - 3) Stock current value: 9.5
+2015-10-23 17:08:18,927 INFO  [stdout] (EJB default - 3) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:18,927 INFO  [stdout] (EJB default - 3) Stock nominal value: 10.0
+2015-10-23 17:08:18,928 INFO  [stdout] (EJB default - 3) Percentage applied: 1.026311
+2015-10-23 17:08:18,928 INFO  [stdout] (EJB default - 3) Stock current value: 10.2
+2015-10-23 17:08:18,928 INFO  [stdout] (EJB default - 3) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:18,928 INFO  [stdout] (EJB default - 3) Stock nominal value: 10.0
+2015-10-23 17:08:18,928 INFO  [stdout] (EJB default - 3) Percentage applied: 0.9802116
+2015-10-23 17:08:18,928 INFO  [stdout] (EJB default - 3) Stock current value: 9.8
+2015-10-23 17:08:18,928 INFO  [stdout] (EJB default - 3) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:18,928 INFO  [stdout] (EJB default - 3) Stock nominal value: 10.0
+2015-10-23 17:08:18,928 INFO  [stdout] (EJB default - 3) Percentage applied: 0.9686876
+2015-10-23 17:08:18,928 INFO  [stdout] (EJB default - 3) Stock current value: 9.6
+2015-10-23 17:08:18,928 INFO  [stdout] (EJB default - 3) Hibernate: insert into USERS (USER_MONEY, USER_STOCKS, USER_ID, USER_IDOP) values (?, ?, ?, ?)
+2015-10-23 17:08:19,270 INFO  [stdout] (EJB default - 4) Hibernate: select remoteuser0_.USER_IDOP as USER_IDO1_0_, remoteuser0_.USER_MONEY as USER_MON2_0_, remoteuser0_.USER_STOCKS as USER_STO3_0_, remoteuser0_.USER_ID as USER_ID4_0_ from USERS remoteuser0_ where remoteuser0_.USER_ID=1
+2015-10-23 17:08:19,274 INFO  [stdout] (EJB default - 4) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:19,274 INFO  [stdout] (EJB default - 4) Stock nominal value: 10.0
+2015-10-23 17:08:19,274 INFO  [stdout] (EJB default - 4) Percentage applied: 0.97680056
+2015-10-23 17:08:19,275 INFO  [stdout] (EJB default - 4) Stock current value: 9.7
+2015-10-23 17:08:19,275 INFO  [stdout] (EJB default - 4) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:19,275 INFO  [stdout] (EJB default - 4) Stock nominal value: 10.0
+2015-10-23 17:08:19,275 INFO  [stdout] (EJB default - 4) Percentage applied: 0.9725912
+2015-10-23 17:08:19,275 INFO  [stdout] (EJB default - 4) Stock current value: 9.7
+2015-10-23 17:08:19,275 INFO  [stdout] (EJB default - 4) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:19,275 INFO  [stdout] (EJB default - 4) Stock nominal value: 10.0
+2015-10-23 17:08:19,275 INFO  [stdout] (EJB default - 4) Percentage applied: 0.98617756
+2015-10-23 17:08:19,275 INFO  [stdout] (EJB default - 4) Stock current value: 9.8
+2015-10-23 17:08:19,275 INFO  [stdout] (EJB default - 4) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:19,275 INFO  [stdout] (EJB default - 4) Stock nominal value: 10.0
+2015-10-23 17:08:19,275 INFO  [stdout] (EJB default - 4) Percentage applied: 0.974515
+2015-10-23 17:08:19,276 INFO  [stdout] (EJB default - 4) Stock current value: 9.7
+2015-10-23 17:08:19,276 INFO  [stdout] (EJB default - 4) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:19,276 INFO  [stdout] (EJB default - 4) Stock nominal value: 10.0
+2015-10-23 17:08:19,276 INFO  [stdout] (EJB default - 4) Percentage applied: 1.0395815
+2015-10-23 17:08:19,276 INFO  [stdout] (EJB default - 4) Stock current value: 10.3
+2015-10-23 17:08:19,276 INFO  [stdout] (EJB default - 4) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:19,276 INFO  [stdout] (EJB default - 4) Stock nominal value: 10.0
+2015-10-23 17:08:19,276 INFO  [stdout] (EJB default - 4) Percentage applied: 0.9688532
+2015-10-23 17:08:19,276 INFO  [stdout] (EJB default - 4) Stock current value: 9.6
+2015-10-23 17:08:19,276 INFO  [stdout] (EJB default - 4) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:19,276 INFO  [stdout] (EJB default - 4) Stock nominal value: 10.0
+2015-10-23 17:08:19,276 INFO  [stdout] (EJB default - 4) Percentage applied: 1.045003
+2015-10-23 17:08:19,276 INFO  [stdout] (EJB default - 4) Stock current value: 10.4
+2015-10-23 17:08:19,276 INFO  [stdout] (EJB default - 4) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:19,277 INFO  [stdout] (EJB default - 4) Stock nominal value: 10.0
+2015-10-23 17:08:19,277 INFO  [stdout] (EJB default - 4) Percentage applied: 1.0434227
+2015-10-23 17:08:19,277 INFO  [stdout] (EJB default - 4) Stock current value: 10.4
+2015-10-23 17:08:19,277 INFO  [stdout] (EJB default - 4) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:19,277 INFO  [stdout] (EJB default - 4) Stock nominal value: 10.0
+2015-10-23 17:08:19,277 INFO  [stdout] (EJB default - 4) Percentage applied: 0.9640959
+2015-10-23 17:08:19,277 INFO  [stdout] (EJB default - 4) Stock current value: 9.6
+2015-10-23 17:08:19,277 INFO  [stdout] (EJB default - 4) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:19,277 INFO  [stdout] (EJB default - 4) Stock nominal value: 10.0
+2015-10-23 17:08:19,277 INFO  [stdout] (EJB default - 4) Percentage applied: 1.0052066
+2015-10-23 17:08:19,277 INFO  [stdout] (EJB default - 4) Stock current value: 10.0
+2015-10-23 17:08:19,278 INFO  [stdout] (EJB default - 4) Hibernate: insert into USERS (USER_MONEY, USER_STOCKS, USER_ID, USER_IDOP) values (?, ?, ?, ?)
+2015-10-23 17:08:20,518 INFO  [stdout] (EJB default - 5) Hibernate: select remoteuser0_.USER_IDOP as USER_IDO1_0_, remoteuser0_.USER_MONEY as USER_MON2_0_, remoteuser0_.USER_STOCKS as USER_STO3_0_, remoteuser0_.USER_ID as USER_ID4_0_ from USERS remoteuser0_ where remoteuser0_.USER_ID=1
+2015-10-23 17:08:20,522 INFO  [stdout] (EJB default - 5) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:20,522 INFO  [stdout] (EJB default - 5) Stock nominal value: 10.0
+2015-10-23 17:08:20,522 INFO  [stdout] (EJB default - 5) Percentage applied: 0.9854931
+2015-10-23 17:08:20,522 INFO  [stdout] (EJB default - 5) Stock current value: 9.8
+2015-10-23 17:08:20,522 INFO  [stdout] (EJB default - 5) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:20,522 INFO  [stdout] (EJB default - 5) Stock nominal value: 10.0
+2015-10-23 17:08:20,522 INFO  [stdout] (EJB default - 5) Percentage applied: 0.96384686
+2015-10-23 17:08:20,522 INFO  [stdout] (EJB default - 5) Stock current value: 9.6
+2015-10-23 17:08:20,522 INFO  [stdout] (EJB default - 5) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:20,523 INFO  [stdout] (EJB default - 5) Stock nominal value: 10.0
+2015-10-23 17:08:20,523 INFO  [stdout] (EJB default - 5) Percentage applied: 0.950502
+2015-10-23 17:08:20,523 INFO  [stdout] (EJB default - 5) Stock current value: 9.5
+2015-10-23 17:08:20,523 INFO  [stdout] (EJB default - 5) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:20,523 INFO  [stdout] (EJB default - 5) Stock nominal value: 10.0
+2015-10-23 17:08:20,523 INFO  [stdout] (EJB default - 5) Percentage applied: 0.96065706
+2015-10-23 17:08:20,523 INFO  [stdout] (EJB default - 5) Stock current value: 9.6
+2015-10-23 17:08:20,523 INFO  [stdout] (EJB default - 5) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:20,523 INFO  [stdout] (EJB default - 5) Stock nominal value: 10.0
+2015-10-23 17:08:20,523 INFO  [stdout] (EJB default - 5) Percentage applied: 1.0154887
+2015-10-23 17:08:20,523 INFO  [stdout] (EJB default - 5) Stock current value: 10.1
+2015-10-23 17:08:20,523 INFO  [stdout] (EJB default - 5) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:20,523 INFO  [stdout] (EJB default - 5) Stock nominal value: 10.0
+2015-10-23 17:08:20,523 INFO  [stdout] (EJB default - 5) Percentage applied: 1.014205
+2015-10-23 17:08:20,523 INFO  [stdout] (EJB default - 5) Stock current value: 10.1
+2015-10-23 17:08:20,523 INFO  [stdout] (EJB default - 5) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:20,523 INFO  [stdout] (EJB default - 5) Stock nominal value: 10.0
+2015-10-23 17:08:20,523 INFO  [stdout] (EJB default - 5) Percentage applied: 1.0159894
+2015-10-23 17:08:20,524 INFO  [stdout] (EJB default - 5) Stock current value: 10.1
+2015-10-23 17:08:20,524 INFO  [stdout] (EJB default - 5) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:20,524 INFO  [stdout] (EJB default - 5) Stock nominal value: 10.0
+2015-10-23 17:08:20,525 INFO  [stdout] (EJB default - 5) Percentage applied: 0.9586309
+2015-10-23 17:08:20,525 INFO  [stdout] (EJB default - 5) Stock current value: 9.5
+2015-10-23 17:08:20,525 INFO  [stdout] (EJB default - 5) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:20,525 INFO  [stdout] (EJB default - 5) Stock nominal value: 10.0
+2015-10-23 17:08:20,525 INFO  [stdout] (EJB default - 5) Percentage applied: 0.9835873
+2015-10-23 17:08:20,525 INFO  [stdout] (EJB default - 5) Stock current value: 9.8
+2015-10-23 17:08:20,525 INFO  [stdout] (EJB default - 5) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:20,525 INFO  [stdout] (EJB default - 5) Stock nominal value: 10.0
+2015-10-23 17:08:20,525 INFO  [stdout] (EJB default - 5) Percentage applied: 0.9890772
+2015-10-23 17:08:20,525 INFO  [stdout] (EJB default - 5) Stock current value: 9.8
+2015-10-23 17:08:20,526 INFO  [stdout] (EJB default - 5) Hibernate: insert into USERS (USER_MONEY, USER_STOCKS, USER_ID, USER_IDOP) values (?, ?, ?, ?)
+2015-10-23 17:08:22,119 INFO  [stdout] (EJB default - 6) Hibernate: select remoteuser0_.USER_IDOP as USER_IDO1_0_, remoteuser0_.USER_MONEY as USER_MON2_0_, remoteuser0_.USER_STOCKS as USER_STO3_0_, remoteuser0_.USER_ID as USER_ID4_0_ from USERS remoteuser0_ where remoteuser0_.USER_ID=1
+2015-10-23 17:08:22,123 INFO  [stdout] (EJB default - 6) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:22,123 INFO  [stdout] (EJB default - 6) Stock nominal value: 10.0
+2015-10-23 17:08:22,123 INFO  [stdout] (EJB default - 6) Percentage applied: 1.0178566
+2015-10-23 17:08:22,123 INFO  [stdout] (EJB default - 6) Stock current value: 10.1
+2015-10-23 17:08:22,123 INFO  [stdout] (EJB default - 6) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:22,123 INFO  [stdout] (EJB default - 6) Stock nominal value: 10.0
+2015-10-23 17:08:22,123 INFO  [stdout] (EJB default - 6) Percentage applied: 0.9712923
+2015-10-23 17:08:22,123 INFO  [stdout] (EJB default - 6) Stock current value: 9.7
+2015-10-23 17:08:22,123 INFO  [stdout] (EJB default - 6) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:22,123 INFO  [stdout] (EJB default - 6) Stock nominal value: 10.0
+2015-10-23 17:08:22,123 INFO  [stdout] (EJB default - 6) Percentage applied: 1.013644
+2015-10-23 17:08:22,123 INFO  [stdout] (EJB default - 6) Stock current value: 10.1
+2015-10-23 17:08:22,123 INFO  [stdout] (EJB default - 6) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:22,123 INFO  [stdout] (EJB default - 6) Stock nominal value: 10.0
+2015-10-23 17:08:22,123 INFO  [stdout] (EJB default - 6) Percentage applied: 0.98162097
+2015-10-23 17:08:22,124 INFO  [stdout] (EJB default - 6) Stock current value: 9.8
+2015-10-23 17:08:22,124 INFO  [stdout] (EJB default - 6) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:22,124 INFO  [stdout] (EJB default - 6) Stock nominal value: 10.0
+2015-10-23 17:08:22,124 INFO  [stdout] (EJB default - 6) Percentage applied: 1.0220119
+2015-10-23 17:08:22,124 INFO  [stdout] (EJB default - 6) Stock current value: 10.2
+2015-10-23 17:08:22,124 INFO  [stdout] (EJB default - 6) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:22,124 INFO  [stdout] (EJB default - 6) Stock nominal value: 10.0
+2015-10-23 17:08:22,124 INFO  [stdout] (EJB default - 6) Percentage applied: 0.9683907
+2015-10-23 17:08:22,124 INFO  [stdout] (EJB default - 6) Stock current value: 9.6
+2015-10-23 17:08:22,124 INFO  [stdout] (EJB default - 6) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:22,124 INFO  [stdout] (EJB default - 6) Stock nominal value: 10.0
+2015-10-23 17:08:22,124 INFO  [stdout] (EJB default - 6) Percentage applied: 1.0053008
+2015-10-23 17:08:22,124 INFO  [stdout] (EJB default - 6) Stock current value: 10.0
+2015-10-23 17:08:22,124 INFO  [stdout] (EJB default - 6) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:22,124 INFO  [stdout] (EJB default - 6) Stock nominal value: 10.0
+2015-10-23 17:08:22,124 INFO  [stdout] (EJB default - 6) Percentage applied: 1.02055
+2015-10-23 17:08:22,124 INFO  [stdout] (EJB default - 6) Stock current value: 10.2
+2015-10-23 17:08:22,124 INFO  [stdout] (EJB default - 6) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:22,124 INFO  [stdout] (EJB default - 6) Stock nominal value: 10.0
+2015-10-23 17:08:22,124 INFO  [stdout] (EJB default - 6) Percentage applied: 0.9748912
+2015-10-23 17:08:22,125 INFO  [stdout] (EJB default - 6) Stock current value: 9.7
+2015-10-23 17:08:22,125 INFO  [stdout] (EJB default - 6) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:22,125 INFO  [stdout] (EJB default - 6) Stock nominal value: 10.0
+2015-10-23 17:08:22,125 INFO  [stdout] (EJB default - 6) Percentage applied: 1.0009533
+2015-10-23 17:08:22,125 INFO  [stdout] (EJB default - 6) Stock current value: 10.0
+2015-10-23 17:08:22,125 INFO  [stdout] (EJB default - 6) Hibernate: insert into USERS (USER_MONEY, USER_STOCKS, USER_ID, USER_IDOP) values (?, ?, ?, ?)
+2015-10-23 17:08:22,893 INFO  [stdout] (EJB default - 7) Hibernate: select remoteuser0_.USER_IDOP as USER_IDO1_0_, remoteuser0_.USER_MONEY as USER_MON2_0_, remoteuser0_.USER_STOCKS as USER_STO3_0_, remoteuser0_.USER_ID as USER_ID4_0_ from USERS remoteuser0_ where remoteuser0_.USER_ID=1
+2015-10-23 17:08:22,898 INFO  [stdout] (EJB default - 7) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:22,898 INFO  [stdout] (EJB default - 7) Stock nominal value: 10.0
+2015-10-23 17:08:22,898 INFO  [stdout] (EJB default - 7) Percentage applied: 1.0225321
+2015-10-23 17:08:22,898 INFO  [stdout] (EJB default - 7) Stock current value: 10.2
+2015-10-23 17:08:22,898 INFO  [stdout] (EJB default - 7) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:22,898 INFO  [stdout] (EJB default - 7) Stock nominal value: 10.0
+2015-10-23 17:08:22,899 INFO  [stdout] (EJB default - 7) Percentage applied: 1.0299819
+2015-10-23 17:08:22,899 INFO  [stdout] (EJB default - 7) Stock current value: 10.2
+2015-10-23 17:08:22,899 INFO  [stdout] (EJB default - 7) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:22,899 INFO  [stdout] (EJB default - 7) Stock nominal value: 10.0
+2015-10-23 17:08:22,899 INFO  [stdout] (EJB default - 7) Percentage applied: 1.0333652
+2015-10-23 17:08:22,899 INFO  [stdout] (EJB default - 7) Stock current value: 10.3
+2015-10-23 17:08:22,899 INFO  [stdout] (EJB default - 7) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:22,899 INFO  [stdout] (EJB default - 7) Stock nominal value: 10.0
+2015-10-23 17:08:22,899 INFO  [stdout] (EJB default - 7) Percentage applied: 0.9622091
+2015-10-23 17:08:22,899 INFO  [stdout] (EJB default - 7) Stock current value: 9.6
+2015-10-23 17:08:22,899 INFO  [stdout] (EJB default - 7) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:22,899 INFO  [stdout] (EJB default - 7) Stock nominal value: 10.0
+2015-10-23 17:08:22,899 INFO  [stdout] (EJB default - 7) Percentage applied: 0.96516776
+2015-10-23 17:08:22,899 INFO  [stdout] (EJB default - 7) Stock current value: 9.6
+2015-10-23 17:08:22,899 INFO  [stdout] (EJB default - 7) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:22,899 INFO  [stdout] (EJB default - 7) Stock nominal value: 10.0
+2015-10-23 17:08:22,900 INFO  [stdout] (EJB default - 7) Percentage applied: 1.0332568
+2015-10-23 17:08:22,900 INFO  [stdout] (EJB default - 7) Stock current value: 10.3
+2015-10-23 17:08:22,900 INFO  [stdout] (EJB default - 7) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:22,900 INFO  [stdout] (EJB default - 7) Stock nominal value: 10.0
+2015-10-23 17:08:22,900 INFO  [stdout] (EJB default - 7) Percentage applied: 1.0406333
+2015-10-23 17:08:22,900 INFO  [stdout] (EJB default - 7) Stock current value: 10.4
+2015-10-23 17:08:22,900 INFO  [stdout] (EJB default - 7) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:22,900 INFO  [stdout] (EJB default - 7) Stock nominal value: 10.0
+2015-10-23 17:08:22,900 INFO  [stdout] (EJB default - 7) Percentage applied: 0.969754
+2015-10-23 17:08:22,900 INFO  [stdout] (EJB default - 7) Stock current value: 9.6
+2015-10-23 17:08:22,900 INFO  [stdout] (EJB default - 7) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:22,900 INFO  [stdout] (EJB default - 7) Stock nominal value: 10.0
+2015-10-23 17:08:22,900 INFO  [stdout] (EJB default - 7) Percentage applied: 0.95711124
+2015-10-23 17:08:22,900 INFO  [stdout] (EJB default - 7) Stock current value: 9.5
+2015-10-23 17:08:22,900 INFO  [stdout] (EJB default - 7) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:22,900 INFO  [stdout] (EJB default - 7) Stock nominal value: 10.0
+2015-10-23 17:08:22,900 INFO  [stdout] (EJB default - 7) Percentage applied: 0.97353643
+2015-10-23 17:08:22,900 INFO  [stdout] (EJB default - 7) Stock current value: 9.7
+2015-10-23 17:08:22,901 INFO  [stdout] (EJB default - 7) Hibernate: insert into USERS (USER_MONEY, USER_STOCKS, USER_ID, USER_IDOP) values (?, ?, ?, ?)
+2015-10-23 17:08:24,130 INFO  [stdout] (EJB default - 8) Hibernate: select remoteuser0_.USER_IDOP as USER_IDO1_0_, remoteuser0_.USER_MONEY as USER_MON2_0_, remoteuser0_.USER_STOCKS as USER_STO3_0_, remoteuser0_.USER_ID as USER_ID4_0_ from USERS remoteuser0_ where remoteuser0_.USER_ID=1
+2015-10-23 17:08:24,134 INFO  [stdout] (EJB default - 8) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:24,134 INFO  [stdout] (EJB default - 8) Stock nominal value: 10.0
+2015-10-23 17:08:24,135 INFO  [stdout] (EJB default - 8) Percentage applied: 1.0141922
+2015-10-23 17:08:24,135 INFO  [stdout] (EJB default - 8) Stock current value: 10.1
+2015-10-23 17:08:24,135 INFO  [stdout] (EJB default - 8) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:24,135 INFO  [stdout] (EJB default - 8) Stock nominal value: 10.0
+2015-10-23 17:08:24,135 INFO  [stdout] (EJB default - 8) Percentage applied: 0.9731258
+2015-10-23 17:08:24,135 INFO  [stdout] (EJB default - 8) Stock current value: 9.7
+2015-10-23 17:08:24,135 INFO  [stdout] (EJB default - 8) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:24,135 INFO  [stdout] (EJB default - 8) Stock nominal value: 10.0
+2015-10-23 17:08:24,135 INFO  [stdout] (EJB default - 8) Percentage applied: 0.96189123
+2015-10-23 17:08:24,135 INFO  [stdout] (EJB default - 8) Stock current value: 9.6
+2015-10-23 17:08:24,135 INFO  [stdout] (EJB default - 8) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:24,135 INFO  [stdout] (EJB default - 8) Stock nominal value: 10.0
+2015-10-23 17:08:24,135 INFO  [stdout] (EJB default - 8) Percentage applied: 1.0412992
+2015-10-23 17:08:24,135 INFO  [stdout] (EJB default - 8) Stock current value: 10.4
+2015-10-23 17:08:24,135 INFO  [stdout] (EJB default - 8) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:24,135 INFO  [stdout] (EJB default - 8) Stock nominal value: 10.0
+2015-10-23 17:08:24,135 INFO  [stdout] (EJB default - 8) Percentage applied: 0.9717054
+2015-10-23 17:08:24,135 INFO  [stdout] (EJB default - 8) Stock current value: 9.7
+2015-10-23 17:08:24,136 INFO  [stdout] (EJB default - 8) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:24,136 INFO  [stdout] (EJB default - 8) Stock nominal value: 10.0
+2015-10-23 17:08:24,136 INFO  [stdout] (EJB default - 8) Percentage applied: 0.9979523
+2015-10-23 17:08:24,136 INFO  [stdout] (EJB default - 8) Stock current value: 9.9
+2015-10-23 17:08:24,136 INFO  [stdout] (EJB default - 8) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:24,136 INFO  [stdout] (EJB default - 8) Stock nominal value: 10.0
+2015-10-23 17:08:24,136 INFO  [stdout] (EJB default - 8) Percentage applied: 0.98736554
+2015-10-23 17:08:24,136 INFO  [stdout] (EJB default - 8) Stock current value: 9.8
+2015-10-23 17:08:24,136 INFO  [stdout] (EJB default - 8) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:24,136 INFO  [stdout] (EJB default - 8) Stock nominal value: 10.0
+2015-10-23 17:08:24,136 INFO  [stdout] (EJB default - 8) Percentage applied: 1.0010476
+2015-10-23 17:08:24,136 INFO  [stdout] (EJB default - 8) Stock current value: 10.0
+2015-10-23 17:08:24,136 INFO  [stdout] (EJB default - 8) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:24,136 INFO  [stdout] (EJB default - 8) Stock nominal value: 10.0
+2015-10-23 17:08:24,136 INFO  [stdout] (EJB default - 8) Percentage applied: 0.96728873
+2015-10-23 17:08:24,136 INFO  [stdout] (EJB default - 8) Stock current value: 9.6
+2015-10-23 17:08:24,136 INFO  [stdout] (EJB default - 8) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:24,137 INFO  [stdout] (EJB default - 8) Stock nominal value: 10.0
+2015-10-23 17:08:24,137 INFO  [stdout] (EJB default - 8) Percentage applied: 0.9564827
+2015-10-23 17:08:24,137 INFO  [stdout] (EJB default - 8) Stock current value: 9.5
+2015-10-23 17:08:26,998 INFO  [stdout] (EJB default - 9) Hibernate: select remoteuser0_.USER_IDOP as USER_IDO1_0_, remoteuser0_.USER_MONEY as USER_MON2_0_, remoteuser0_.USER_STOCKS as USER_STO3_0_, remoteuser0_.USER_ID as USER_ID4_0_ from USERS remoteuser0_ where remoteuser0_.USER_ID=1
+2015-10-23 17:08:30,116 INFO  [stdout] (EJB default - 10) Hibernate: select remoteuser0_.USER_IDOP as USER_IDO1_0_, remoteuser0_.USER_MONEY as USER_MON2_0_, remoteuser0_.USER_STOCKS as USER_STO3_0_, remoteuser0_.USER_ID as USER_ID4_0_ from USERS remoteuser0_ where remoteuser0_.USER_ID=1
+2015-10-23 17:08:30,119 INFO  [stdout] (EJB default - 10) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:30,119 INFO  [stdout] (EJB default - 10) Stock nominal value: 10.0
+2015-10-23 17:08:30,119 INFO  [stdout] (EJB default - 10) Percentage applied: 0.9641792
+2015-10-23 17:08:30,120 INFO  [stdout] (EJB default - 10) Stock current value: 9.6
+2015-10-23 17:08:30,120 INFO  [stdout] (EJB default - 10) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:30,120 INFO  [stdout] (EJB default - 10) Stock nominal value: 10.0
+2015-10-23 17:08:30,120 INFO  [stdout] (EJB default - 10) Percentage applied: 1.0370458
+2015-10-23 17:08:30,120 INFO  [stdout] (EJB default - 10) Stock current value: 10.3
+2015-10-23 17:08:30,120 INFO  [stdout] (EJB default - 10) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:30,120 INFO  [stdout] (EJB default - 10) Stock nominal value: 10.0
+2015-10-23 17:08:30,120 INFO  [stdout] (EJB default - 10) Percentage applied: 0.98539394
+2015-10-23 17:08:30,120 INFO  [stdout] (EJB default - 10) Stock current value: 9.8
+2015-10-23 17:08:30,120 INFO  [stdout] (EJB default - 10) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:30,121 INFO  [stdout] (EJB default - 10) Stock nominal value: 10.0
+2015-10-23 17:08:30,121 INFO  [stdout] (EJB default - 10) Percentage applied: 1.0240442
+2015-10-23 17:08:30,121 INFO  [stdout] (EJB default - 10) Stock current value: 10.2
+2015-10-23 17:08:30,121 INFO  [stdout] (EJB default - 10) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:30,121 INFO  [stdout] (EJB default - 10) Stock nominal value: 10.0
+2015-10-23 17:08:30,121 INFO  [stdout] (EJB default - 10) Percentage applied: 1.0287191
+2015-10-23 17:08:30,121 INFO  [stdout] (EJB default - 10) Stock current value: 10.2
+2015-10-23 17:08:30,121 INFO  [stdout] (EJB default - 10) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:30,121 INFO  [stdout] (EJB default - 10) Stock nominal value: 10.0
+2015-10-23 17:08:30,122 INFO  [stdout] (EJB default - 10) Percentage applied: 0.96036756
+2015-10-23 17:08:30,122 INFO  [stdout] (EJB default - 10) Stock current value: 9.6
+2015-10-23 17:08:30,122 INFO  [stdout] (EJB default - 10) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:30,122 INFO  [stdout] (EJB default - 10) Stock nominal value: 10.0
+2015-10-23 17:08:30,122 INFO  [stdout] (EJB default - 10) Percentage applied: 1.0323132
+2015-10-23 17:08:30,122 INFO  [stdout] (EJB default - 10) Stock current value: 10.3
+2015-10-23 17:08:30,122 INFO  [stdout] (EJB default - 10) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:30,122 INFO  [stdout] (EJB default - 10) Stock nominal value: 10.0
+2015-10-23 17:08:30,122 INFO  [stdout] (EJB default - 10) Percentage applied: 0.9668681
+2015-10-23 17:08:30,122 INFO  [stdout] (EJB default - 10) Stock current value: 9.6
+2015-10-23 17:08:30,122 INFO  [stdout] (EJB default - 10) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:30,123 INFO  [stdout] (EJB default - 10) Stock nominal value: 10.0
+2015-10-23 17:08:30,123 INFO  [stdout] (EJB default - 10) Percentage applied: 0.9920103
+2015-10-23 17:08:30,123 INFO  [stdout] (EJB default - 10) Stock current value: 9.9
+2015-10-23 17:08:30,123 INFO  [stdout] (EJB default - 10) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:30,123 INFO  [stdout] (EJB default - 10) Stock nominal value: 10.0
+2015-10-23 17:08:30,123 INFO  [stdout] (EJB default - 10) Percentage applied: 0.96818686
+2015-10-23 17:08:30,123 INFO  [stdout] (EJB default - 10) Stock current value: 9.6
+2015-10-23 17:08:30,124 INFO  [stdout] (EJB default - 10) Hibernate: insert into USERS (USER_MONEY, USER_STOCKS, USER_ID, USER_IDOP) values (?, ?, ?, ?)
+2015-10-23 17:08:33,681 INFO  [stdout] (EJB default - 1) Hibernate: select remoteuser0_.USER_IDOP as USER_IDO1_0_, remoteuser0_.USER_MONEY as USER_MON2_0_, remoteuser0_.USER_STOCKS as USER_STO3_0_, remoteuser0_.USER_ID as USER_ID4_0_ from USERS remoteuser0_ where remoteuser0_.USER_ID=1
+2015-10-23 17:08:33,686 INFO  [stdout] (EJB default - 1) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:33,686 INFO  [stdout] (EJB default - 1) Stock nominal value: 10.0
+2015-10-23 17:08:33,686 INFO  [stdout] (EJB default - 1) Percentage applied: 0.96606714
+2015-10-23 17:08:33,686 INFO  [stdout] (EJB default - 1) Stock current value: 9.6
+2015-10-23 17:08:33,686 INFO  [stdout] (EJB default - 1) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:33,687 INFO  [stdout] (EJB default - 1) Stock nominal value: 10.0
+2015-10-23 17:08:33,687 INFO  [stdout] (EJB default - 1) Percentage applied: 0.9677522
+2015-10-23 17:08:33,687 INFO  [stdout] (EJB default - 1) Stock current value: 9.6
+2015-10-23 17:08:33,687 INFO  [stdout] (EJB default - 1) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:33,687 INFO  [stdout] (EJB default - 1) Stock nominal value: 10.0
+2015-10-23 17:08:33,687 INFO  [stdout] (EJB default - 1) Percentage applied: 0.9812978
+2015-10-23 17:08:33,687 INFO  [stdout] (EJB default - 1) Stock current value: 9.8
+2015-10-23 17:08:33,687 INFO  [stdout] (EJB default - 1) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:33,688 INFO  [stdout] (EJB default - 1) Stock nominal value: 10.0
+2015-10-23 17:08:33,688 INFO  [stdout] (EJB default - 1) Percentage applied: 1.0330765
+2015-10-23 17:08:33,688 INFO  [stdout] (EJB default - 1) Stock current value: 10.3
+2015-10-23 17:08:33,688 INFO  [stdout] (EJB default - 1) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:33,688 INFO  [stdout] (EJB default - 1) Stock nominal value: 10.0
+2015-10-23 17:08:33,688 INFO  [stdout] (EJB default - 1) Percentage applied: 0.9546064
+2015-10-23 17:08:33,688 INFO  [stdout] (EJB default - 1) Stock current value: 9.5
+2015-10-23 17:08:33,688 INFO  [stdout] (EJB default - 1) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:33,688 INFO  [stdout] (EJB default - 1) Stock nominal value: 10.0
+2015-10-23 17:08:33,688 INFO  [stdout] (EJB default - 1) Percentage applied: 1.0277773
+2015-10-23 17:08:33,688 INFO  [stdout] (EJB default - 1) Stock current value: 10.2
+2015-10-23 17:08:33,688 INFO  [stdout] (EJB default - 1) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:33,688 INFO  [stdout] (EJB default - 1) Stock nominal value: 10.0
+2015-10-23 17:08:33,688 INFO  [stdout] (EJB default - 1) Percentage applied: 1.0345535
+2015-10-23 17:08:33,688 INFO  [stdout] (EJB default - 1) Stock current value: 10.3
+2015-10-23 17:08:33,688 INFO  [stdout] (EJB default - 1) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:33,688 INFO  [stdout] (EJB default - 1) Stock nominal value: 10.0
+2015-10-23 17:08:33,689 INFO  [stdout] (EJB default - 1) Percentage applied: 0.9946401
+2015-10-23 17:08:33,689 INFO  [stdout] (EJB default - 1) Stock current value: 9.9
+2015-10-23 17:08:33,689 INFO  [stdout] (EJB default - 1) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:33,689 INFO  [stdout] (EJB default - 1) Stock nominal value: 10.0
+2015-10-23 17:08:33,689 INFO  [stdout] (EJB default - 1) Percentage applied: 1.0464705
+2015-10-23 17:08:33,689 INFO  [stdout] (EJB default - 1) Stock current value: 10.4
+2015-10-23 17:08:33,689 INFO  [stdout] (EJB default - 1) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:33,689 INFO  [stdout] (EJB default - 1) Stock nominal value: 10.0
+2015-10-23 17:08:33,689 INFO  [stdout] (EJB default - 1) Percentage applied: 0.965627
+2015-10-23 17:08:33,689 INFO  [stdout] (EJB default - 1) Stock current value: 9.6
+2015-10-23 17:08:33,690 INFO  [stdout] (EJB default - 1) Hibernate: insert into USERS (USER_MONEY, USER_STOCKS, USER_ID, USER_IDOP) values (?, ?, ?, ?)
+2015-10-23 17:08:34,019 INFO  [stdout] (EJB default - 2) Hibernate: select remoteuser0_.USER_IDOP as USER_IDO1_0_, remoteuser0_.USER_MONEY as USER_MON2_0_, remoteuser0_.USER_STOCKS as USER_STO3_0_, remoteuser0_.USER_ID as USER_ID4_0_ from USERS remoteuser0_ where remoteuser0_.USER_ID=1
+2015-10-23 17:08:34,024 INFO  [stdout] (EJB default - 2) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:34,024 INFO  [stdout] (EJB default - 2) Stock nominal value: 10.0
+2015-10-23 17:08:34,024 INFO  [stdout] (EJB default - 2) Percentage applied: 1.0262564
+2015-10-23 17:08:34,024 INFO  [stdout] (EJB default - 2) Stock current value: 10.2
+2015-10-23 17:08:34,024 INFO  [stdout] (EJB default - 2) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:34,024 INFO  [stdout] (EJB default - 2) Stock nominal value: 10.0
+2015-10-23 17:08:34,024 INFO  [stdout] (EJB default - 2) Percentage applied: 1.0494897
+2015-10-23 17:08:34,024 INFO  [stdout] (EJB default - 2) Stock current value: 10.4
+2015-10-23 17:08:34,024 INFO  [stdout] (EJB default - 2) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:34,024 INFO  [stdout] (EJB default - 2) Stock nominal value: 10.0
+2015-10-23 17:08:34,024 INFO  [stdout] (EJB default - 2) Percentage applied: 0.99698025
+2015-10-23 17:08:34,024 INFO  [stdout] (EJB default - 2) Stock current value: 9.9
+2015-10-23 17:08:34,024 INFO  [stdout] (EJB default - 2) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:34,025 INFO  [stdout] (EJB default - 2) Stock nominal value: 10.0
+2015-10-23 17:08:34,025 INFO  [stdout] (EJB default - 2) Percentage applied: 1.0101587
+2015-10-23 17:08:34,025 INFO  [stdout] (EJB default - 2) Stock current value: 10.1
+2015-10-23 17:08:34,025 INFO  [stdout] (EJB default - 2) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:34,025 INFO  [stdout] (EJB default - 2) Stock nominal value: 10.0
+2015-10-23 17:08:34,025 INFO  [stdout] (EJB default - 2) Percentage applied: 0.98533595
+2015-10-23 17:08:34,025 INFO  [stdout] (EJB default - 2) Stock current value: 9.8
+2015-10-23 17:08:34,025 INFO  [stdout] (EJB default - 2) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:34,025 INFO  [stdout] (EJB default - 2) Stock nominal value: 10.0
+2015-10-23 17:08:34,025 INFO  [stdout] (EJB default - 2) Percentage applied: 1.0169522
+2015-10-23 17:08:34,025 INFO  [stdout] (EJB default - 2) Stock current value: 10.1
+2015-10-23 17:08:34,025 INFO  [stdout] (EJB default - 2) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:34,025 INFO  [stdout] (EJB default - 2) Stock nominal value: 10.0
+2015-10-23 17:08:34,025 INFO  [stdout] (EJB default - 2) Percentage applied: 1.0022594
+2015-10-23 17:08:34,025 INFO  [stdout] (EJB default - 2) Stock current value: 10.0
+2015-10-23 17:08:34,025 INFO  [stdout] (EJB default - 2) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:34,025 INFO  [stdout] (EJB default - 2) Stock nominal value: 10.0
+2015-10-23 17:08:34,026 INFO  [stdout] (EJB default - 2) Percentage applied: 1.0118431
+2015-10-23 17:08:34,026 INFO  [stdout] (EJB default - 2) Stock current value: 10.1
+2015-10-23 17:08:34,026 INFO  [stdout] (EJB default - 2) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:34,026 INFO  [stdout] (EJB default - 2) Stock nominal value: 10.0
+2015-10-23 17:08:34,026 INFO  [stdout] (EJB default - 2) Percentage applied: 1.0170554
+2015-10-23 17:08:34,026 INFO  [stdout] (EJB default - 2) Stock current value: 10.1
+2015-10-23 17:08:34,026 INFO  [stdout] (EJB default - 2) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:34,026 INFO  [stdout] (EJB default - 2) Stock nominal value: 10.0
+2015-10-23 17:08:34,026 INFO  [stdout] (EJB default - 2) Percentage applied: 1.047515
+2015-10-23 17:08:34,026 INFO  [stdout] (EJB default - 2) Stock current value: 10.4
+2015-10-23 17:08:35,121 INFO  [stdout] (EJB default - 3) Hibernate: select remoteuser0_.USER_IDOP as USER_IDO1_0_, remoteuser0_.USER_MONEY as USER_MON2_0_, remoteuser0_.USER_STOCKS as USER_STO3_0_, remoteuser0_.USER_ID as USER_ID4_0_ from USERS remoteuser0_ where remoteuser0_.USER_ID=1
+2015-10-23 17:08:35,125 INFO  [stdout] (EJB default - 3) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:35,126 INFO  [stdout] (EJB default - 3) Stock nominal value: 10.0
+2015-10-23 17:08:35,126 INFO  [stdout] (EJB default - 3) Percentage applied: 0.99457425
+2015-10-23 17:08:35,126 INFO  [stdout] (EJB default - 3) Stock current value: 9.9
+2015-10-23 17:08:35,126 INFO  [stdout] (EJB default - 3) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:35,126 INFO  [stdout] (EJB default - 3) Stock nominal value: 10.0
+2015-10-23 17:08:35,126 INFO  [stdout] (EJB default - 3) Percentage applied: 0.97672886
+2015-10-23 17:08:35,126 INFO  [stdout] (EJB default - 3) Stock current value: 9.7
+2015-10-23 17:08:35,126 INFO  [stdout] (EJB default - 3) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:35,126 INFO  [stdout] (EJB default - 3) Stock nominal value: 10.0
+2015-10-23 17:08:35,126 INFO  [stdout] (EJB default - 3) Percentage applied: 0.96414685
+2015-10-23 17:08:35,127 INFO  [stdout] (EJB default - 3) Stock current value: 9.6
+2015-10-23 17:08:35,127 INFO  [stdout] (EJB default - 3) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:35,127 INFO  [stdout] (EJB default - 3) Stock nominal value: 10.0
+2015-10-23 17:08:35,127 INFO  [stdout] (EJB default - 3) Percentage applied: 0.9573591
+2015-10-23 17:08:35,127 INFO  [stdout] (EJB default - 3) Stock current value: 9.5
+2015-10-23 17:08:35,127 INFO  [stdout] (EJB default - 3) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:35,127 INFO  [stdout] (EJB default - 3) Stock nominal value: 10.0
+2015-10-23 17:08:35,127 INFO  [stdout] (EJB default - 3) Percentage applied: 1.03293
+2015-10-23 17:08:35,127 INFO  [stdout] (EJB default - 3) Stock current value: 10.3
+2015-10-23 17:08:35,127 INFO  [stdout] (EJB default - 3) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:35,128 INFO  [stdout] (EJB default - 3) Stock nominal value: 10.0
+2015-10-23 17:08:35,128 INFO  [stdout] (EJB default - 3) Percentage applied: 0.99422926
+2015-10-23 17:08:35,128 INFO  [stdout] (EJB default - 3) Stock current value: 9.9
+2015-10-23 17:08:35,128 INFO  [stdout] (EJB default - 3) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:35,128 INFO  [stdout] (EJB default - 3) Stock nominal value: 10.0
+2015-10-23 17:08:35,128 INFO  [stdout] (EJB default - 3) Percentage applied: 0.9976504
+2015-10-23 17:08:35,128 INFO  [stdout] (EJB default - 3) Stock current value: 9.9
+2015-10-23 17:08:35,128 INFO  [stdout] (EJB default - 3) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:35,128 INFO  [stdout] (EJB default - 3) Stock nominal value: 10.0
+2015-10-23 17:08:35,128 INFO  [stdout] (EJB default - 3) Percentage applied: 1.0001328
+2015-10-23 17:08:35,128 INFO  [stdout] (EJB default - 3) Stock current value: 10.0
+2015-10-23 17:08:35,129 INFO  [stdout] (EJB default - 3) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:35,129 INFO  [stdout] (EJB default - 3) Stock nominal value: 10.0
+2015-10-23 17:08:35,129 INFO  [stdout] (EJB default - 3) Percentage applied: 0.97843957
+2015-10-23 17:08:35,129 INFO  [stdout] (EJB default - 3) Stock current value: 9.7
+2015-10-23 17:08:35,129 INFO  [stdout] (EJB default - 3) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:35,129 INFO  [stdout] (EJB default - 3) Stock nominal value: 10.0
+2015-10-23 17:08:35,129 INFO  [stdout] (EJB default - 3) Percentage applied: 0.9674003
+2015-10-23 17:08:35,129 INFO  [stdout] (EJB default - 3) Stock current value: 9.6
+2015-10-23 17:08:36,709 INFO  [stdout] (EJB default - 4) Hibernate: select remoteuser0_.USER_IDOP as USER_IDO1_0_, remoteuser0_.USER_MONEY as USER_MON2_0_, remoteuser0_.USER_STOCKS as USER_STO3_0_, remoteuser0_.USER_ID as USER_ID4_0_ from USERS remoteuser0_ where remoteuser0_.USER_ID=1
+2015-10-23 17:08:36,713 INFO  [stdout] (EJB default - 4) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:36,713 INFO  [stdout] (EJB default - 4) Stock nominal value: 10.0
+2015-10-23 17:08:36,713 INFO  [stdout] (EJB default - 4) Percentage applied: 0.9670262
+2015-10-23 17:08:36,714 INFO  [stdout] (EJB default - 4) Stock current value: 9.6
+2015-10-23 17:08:36,714 INFO  [stdout] (EJB default - 4) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:36,714 INFO  [stdout] (EJB default - 4) Stock nominal value: 10.0
+2015-10-23 17:08:36,714 INFO  [stdout] (EJB default - 4) Percentage applied: 0.98912853
+2015-10-23 17:08:36,714 INFO  [stdout] (EJB default - 4) Stock current value: 9.8
+2015-10-23 17:08:36,714 INFO  [stdout] (EJB default - 4) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:36,714 INFO  [stdout] (EJB default - 4) Stock nominal value: 10.0
+2015-10-23 17:08:36,714 INFO  [stdout] (EJB default - 4) Percentage applied: 1.033013
+2015-10-23 17:08:36,714 INFO  [stdout] (EJB default - 4) Stock current value: 10.3
+2015-10-23 17:08:36,714 INFO  [stdout] (EJB default - 4) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:36,714 INFO  [stdout] (EJB default - 4) Stock nominal value: 10.0
+2015-10-23 17:08:36,714 INFO  [stdout] (EJB default - 4) Percentage applied: 1.0359968
+2015-10-23 17:08:36,714 INFO  [stdout] (EJB default - 4) Stock current value: 10.3
+2015-10-23 17:08:36,714 INFO  [stdout] (EJB default - 4) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:36,714 INFO  [stdout] (EJB default - 4) Stock nominal value: 10.0
+2015-10-23 17:08:36,715 INFO  [stdout] (EJB default - 4) Percentage applied: 1.0428007
+2015-10-23 17:08:36,715 INFO  [stdout] (EJB default - 4) Stock current value: 10.4
+2015-10-23 17:08:36,715 INFO  [stdout] (EJB default - 4) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:36,715 INFO  [stdout] (EJB default - 4) Stock nominal value: 10.0
+2015-10-23 17:08:36,715 INFO  [stdout] (EJB default - 4) Percentage applied: 0.9806636
+2015-10-23 17:08:36,715 INFO  [stdout] (EJB default - 4) Stock current value: 9.8
+2015-10-23 17:08:36,715 INFO  [stdout] (EJB default - 4) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:36,715 INFO  [stdout] (EJB default - 4) Stock nominal value: 10.0
+2015-10-23 17:08:36,715 INFO  [stdout] (EJB default - 4) Percentage applied: 0.95558035
+2015-10-23 17:08:36,715 INFO  [stdout] (EJB default - 4) Stock current value: 9.5
+2015-10-23 17:08:36,715 INFO  [stdout] (EJB default - 4) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:36,715 INFO  [stdout] (EJB default - 4) Stock nominal value: 10.0
+2015-10-23 17:08:36,715 INFO  [stdout] (EJB default - 4) Percentage applied: 1.0317713
+2015-10-23 17:08:36,715 INFO  [stdout] (EJB default - 4) Stock current value: 10.3
+2015-10-23 17:08:36,715 INFO  [stdout] (EJB default - 4) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:36,715 INFO  [stdout] (EJB default - 4) Stock nominal value: 10.0
+2015-10-23 17:08:36,715 INFO  [stdout] (EJB default - 4) Percentage applied: 0.99641323
+2015-10-23 17:08:36,716 INFO  [stdout] (EJB default - 4) Stock current value: 9.9
+2015-10-23 17:08:36,716 INFO  [stdout] (EJB default - 4) --- Converting stock nominalValue to currentValue ---
+2015-10-23 17:08:36,716 INFO  [stdout] (EJB default - 4) Stock nominal value: 10.0
+2015-10-23 17:08:36,716 INFO  [stdout] (EJB default - 4) Percentage applied: 0.967597
+2015-10-23 17:08:36,716 INFO  [stdout] (EJB default - 4) Stock current value: 9.6
+2015-10-23 17:08:36,716 INFO  [stdout] (EJB default - 4) Hibernate: insert into USERS (USER_MONEY, USER_STOCKS, USER_ID, USER_IDOP) values (?, ?, ?, ?)
+2015-10-23 17:08:37,574 INFO  [stdout] (EJB default - 5) Hibernate: select remoteuser0_.USER_IDOP as USER_IDO1_0_, remoteuser0_.USER_MONEY as USER_MON2_0_, remoteuser0_.USER_STOCKS as USER_STO3_0_, remoteuser0_.USER_ID as USER_ID4_0_ from USERS remoteuser0_ where remoteuser0_.USER_ID=1
+2015-10-23 17:08:39,160 INFO  [stdout] (EJB default - 6) Hibernate: select remoteuser0_.USER_IDOP as USER_IDO1_0_, remoteuser0_.USER_MONEY as USER_MON2_0_, remoteuser0_.USER_STOCKS as USER_STO3_0_, remoteuser0_.USER_ID as USER_ID4_0_ from USERS remoteuser0_ where remoteuser0_.USER_ID=1
+2015-10-23 17:08:43,325 ERROR [org.jboss.remoting.remote.connection] (default I/O-1) JBREM000200: Remote connection failed: java.io.IOException: Connection reset by peer
+...

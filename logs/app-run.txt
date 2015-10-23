@@ -1,0 +1,174 @@
+INFO: EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@7b4e2db0, receiver=Remoting connection EJB receiver [connection=Remoting connection <5d218f78>,channel=jboss.ejb,nodename=sirio]} on channel Channel ID c8303d5d (outbound) of Remoting connection 20abffbf to localhost/127.0.0.1:8080
+Oct 23, 2015 5:07:50 PM org.jboss.ejb.client.EJBClient <clinit>
+INFO: JBoss EJB Client version 2.0.0.Final
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+l
+	User choose to list the business transactions
+	List of all the oepration for user: 1
+
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+s
+	User choose to sell. Default stocks amount is 10
+	User status -> Id: 1 - Money: 1098.8 - Stocks: 40 - Last operation id: 1
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+s
+	User choose to sell. Default stocks amount is 10
+	User status -> Id: 1 - Money: 1198.0 - Stocks: 30 - Last operation id: 2
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 1099.0 - Stocks: 40 - Last operation id: 3
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+s
+	User choose to sell. Default stocks amount is 10
+	User status -> Id: 1 - Money: 1198.9 - Stocks: 30 - Last operation id: 4
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 1099.1 - Stocks: 40 - Last operation id: 5
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 998.8 - Stocks: 50 - Last operation id: 6
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 900.3 - Stocks: 60 - Last operation id: 7
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 799.5 - Stocks: 70 - Last operation id: 8
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 699.7 - Stocks: 80 - Last operation id: 9
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 600.7 - Stocks: 90 - Last operation id: 10
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 500.80002 - Stocks: 100 - Last operation id: 11
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 401.6 - Stocks: 110 - Last operation id: 12
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 302.4 - Stocks: 120 - Last operation id: 13
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 204.5 - Stocks: 130 - Last operation id: 14
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 105.100006 - Stocks: 140 - Last operation id: 15
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 5.700012 - Stocks: 150 - Last operation id: 16
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User can not buy since user money are not enough to buy a minimum amount of 10 stocks.
+	User has: 5.700012 euro left.
+	Total stocks price is: 98.3
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+l
+	User choose to list the business transactions
+	List of all the oepration for user: 1
+	Operation ID: 1 - Stocks: 40 - Money: 1098.8
+	Operation ID: 2 - Stocks: 30 - Money: 1198.0
+	Operation ID: 3 - Stocks: 40 - Money: 1099.0
+	Operation ID: 4 - Stocks: 30 - Money: 1198.9
+	Operation ID: 5 - Stocks: 40 - Money: 1099.1
+	Operation ID: 6 - Stocks: 50 - Money: 998.8
+	Operation ID: 7 - Stocks: 60 - Money: 900.3
+	Operation ID: 8 - Stocks: 70 - Money: 799.5
+	Operation ID: 9 - Stocks: 80 - Money: 699.7
+	Operation ID: 10 - Stocks: 90 - Money: 600.7
+	Operation ID: 11 - Stocks: 100 - Money: 500.80002
+	Operation ID: 12 - Stocks: 110 - Money: 401.6
+	Operation ID: 13 - Stocks: 120 - Money: 302.4
+	Operation ID: 14 - Stocks: 130 - Money: 204.5
+	Operation ID: 15 - Stocks: 140 - Money: 105.100006
+	Operation ID: 16 - Stocks: 150 - Money: 5.700012
+
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+s
+	User choose to sell. Default stocks amount is 10
+	User status -> Id: 1 - Money: 104.80002 - Stocks: 140 - Last operation id: 17
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 5.6000137 - Stocks: 150 - Last operation id: 18
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User can not buy since user money are not enough to buy a minimum amount of 10 stocks.
+	User has: 5.6000137 euro left.
+	Total stocks price is: 101.1
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User can not buy since user money are not enough to buy a minimum amount of 10 stocks.
+	User has: 5.6000137 euro left.
+	Total stocks price is: 98.09999
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+s
+	User choose to sell. Default stocks amount is 10
+	User status -> Id: 1 - Money: 105.10001 - Stocks: 140 - Last operation id: 19
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+l
+	User choose to list the business transactions
+	List of all the oepration for user: 1
+	Operation ID: 1 - Stocks: 40 - Money: 1098.8
+	Operation ID: 2 - Stocks: 30 - Money: 1198.0
+	Operation ID: 3 - Stocks: 40 - Money: 1099.0
+	Operation ID: 4 - Stocks: 30 - Money: 1198.9
+	Operation ID: 5 - Stocks: 40 - Money: 1099.1
+	Operation ID: 6 - Stocks: 50 - Money: 998.8
+	Operation ID: 7 - Stocks: 60 - Money: 900.3
+	Operation ID: 8 - Stocks: 70 - Money: 799.5
+	Operation ID: 9 - Stocks: 80 - Money: 699.7
+	Operation ID: 10 - Stocks: 90 - Money: 600.7
+	Operation ID: 11 - Stocks: 100 - Money: 500.80002
+	Operation ID: 12 - Stocks: 110 - Money: 401.6
+	Operation ID: 13 - Stocks: 120 - Money: 302.4
+	Operation ID: 14 - Stocks: 130 - Money: 204.5
+	Operation ID: 15 - Stocks: 140 - Money: 105.100006
+	Operation ID: 16 - Stocks: 150 - Money: 5.700012
+	Operation ID: 17 - Stocks: 140 - Money: 104.80002
+	Operation ID: 18 - Stocks: 150 - Money: 5.6000137
+	Operation ID: 19 - Stocks: 140 - Money: 105.10001
+
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+l
+	User choose to list the business transactions
+	List of all the oepration for user: 1
+	Operation ID: 1 - Stocks: 40 - Money: 1098.8
+	Operation ID: 2 - Stocks: 30 - Money: 1198.0
+	Operation ID: 3 - Stocks: 40 - Money: 1099.0
+	Operation ID: 4 - Stocks: 30 - Money: 1198.9
+	Operation ID: 5 - Stocks: 40 - Money: 1099.1
+	Operation ID: 6 - Stocks: 50 - Money: 998.8
+	Operation ID: 7 - Stocks: 60 - Money: 900.3
+	Operation ID: 8 - Stocks: 70 - Money: 799.5
+	Operation ID: 9 - Stocks: 80 - Money: 699.7
+	Operation ID: 10 - Stocks: 90 - Money: 600.7
+	Operation ID: 11 - Stocks: 100 - Money: 500.80002
+	Operation ID: 12 - Stocks: 110 - Money: 401.6
+	Operation ID: 13 - Stocks: 120 - Money: 302.4
+	Operation ID: 14 - Stocks: 130 - Money: 204.5
+	Operation ID: 15 - Stocks: 140 - Money: 105.100006
+	Operation ID: 16 - Stocks: 150 - Money: 5.700012
+	Operation ID: 17 - Stocks: 140 - Money: 104.80002
+	Operation ID: 18 - Stocks: 150 - Money: 5.6000137
+	Operation ID: 19 - Stocks: 140 - Money: 105.10001
+
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+q
+Quitting. Hope you had good business !!!

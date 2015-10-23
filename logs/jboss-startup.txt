@@ -1,0 +1,26 @@
+...
+17:04:09,421 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment a4Server-ejb-1.0-SNAPSHOT.jar
+17:04:09,421 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment a3Server-ejb-1.0-SNAPSHOT.jar
+17:04:09,426 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-8) JNDI bindings for session bean named Trade in deployment unit subdeployment "a4Server-ejb-1.0-SNAPSHOT.jar" of deployment "a4Server-ear-1.0-SNAPSHOT.ear" are as follows:
+
+	     java:global/a4Server-ear-1.0-SNAPSHOT/a4Server-ejb-1.0-SNAPSHOT/Trade!it.unitn.dsantoro.a4server.TradeRemote
+	     java:app/a4Server-ejb-1.0-SNAPSHOT/Trade!it.unitn.dsantoro.a4server.TradeRemote
+	     java:module/Trade!it.unitn.dsantoro.a4server.TradeRemote
+	     java:jboss/exported/a4Server-ear-1.0-SNAPSHOT/a4Server-ejb-1.0-SNAPSHOT/Trade!it.unitn.dsantoro.a4server.TradeRemote
+	     java:global/a4Server-ear-1.0-SNAPSHOT/a4Server-ejb-1.0-SNAPSHOT/Trade
+	     java:app/a4Server-ejb-1.0-SNAPSHOT/Trade
+	     java:module/Trade
+
+17:04:09,426 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named Trade in deployment unit subdeployment "a3Server-ejb-1.0-SNAPSHOT.jar" of deployment "a3Server-ear-1.0-SNAPSHOT.ear" are as follows:
+
+	     java:global/a3Server-ear-1.0-SNAPSHOT/a3Server-ejb-1.0-SNAPSHOT/Trade!it.unitn.dsantoro.a3server.TradeRemote
+	     java:app/a3Server-ejb-1.0-SNAPSHOT/Trade!it.unitn.dsantoro.a3server.TradeRemote
+	     java:module/Trade!it.unitn.dsantoro.a3server.TradeRemote
+	     java:jboss/exported/a3Server-ear-1.0-SNAPSHOT/a3Server-ejb-1.0-SNAPSHOT/Trade!it.unitn.dsantoro.a3server.TradeRemote
+	     java:global/a3Server-ear-1.0-SNAPSHOT/a3Server-ejb-1.0-SNAPSHOT/Trade
+	     java:app/a3Server-ejb-1.0-SNAPSHOT/Trade
+	     java:module/Trade
+
+17:04:09,447 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0004: Deploying JDBC-compliant driver class org.apache.derby.jdbc.ClientDriver (version 10.12)
+17:04:09,447 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0004: Deploying JDBC-compliant driver class org.apache.derby.jdbc.ClientDriver (version 10.12)
+...

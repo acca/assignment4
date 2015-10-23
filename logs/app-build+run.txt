@@ -1,0 +1,359 @@
+acca@sirio assignment4 $ ./build.sh
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building a4Client 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for unknown.binary:hibernate-jpamodelgen-4.3.1.Final:jar:SNAPSHOT is missing, no dependency information available
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ a4Client ---
+[INFO] Deleting /Users/acca/UniTN/Corsi/web-architecture/2015/development/assignment4/a4Client/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ a4Client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ a4Client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /Users/acca/UniTN/Corsi/web-architecture/2015/development/assignment4/a4Client/target/classes
+[WARNING] /Users/acca/UniTN/Corsi/web-architecture/2015/development/assignment4/a4Client/src/main/java/it/unitn/dsantoro/a4client/HibernateUtil.java: /Users/acca/UniTN/Corsi/web-architecture/2015/development/assignment4/a4Client/src/main/java/it/unitn/dsantoro/a4client/HibernateUtil.java uses or overrides a deprecated API.
+[WARNING] /Users/acca/UniTN/Corsi/web-architecture/2015/development/assignment4/a4Client/src/main/java/it/unitn/dsantoro/a4client/HibernateUtil.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ a4Client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/acca/UniTN/Corsi/web-architecture/2015/development/assignment4/a4Client/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ a4Client ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ a4Client ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ a4Client ---
+[INFO] Building jar: /Users/acca/UniTN/Corsi/web-architecture/2015/development/assignment4/a4Client/target/a4Client-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ a4Client ---
+[INFO] Installing /Users/acca/UniTN/Corsi/web-architecture/2015/development/assignment4/a4Client/target/a4Client-1.0-SNAPSHOT.jar to /Users/acca/.m2/repository/it/unitn/dsantoro/a4Client/1.0-SNAPSHOT/a4Client-1.0-SNAPSHOT.jar
+[INFO] Installing /Users/acca/UniTN/Corsi/web-architecture/2015/development/assignment4/a4Client/pom.xml to /Users/acca/.m2/repository/it/unitn/dsantoro/a4Client/1.0-SNAPSHOT/a4Client-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.094 s
+[INFO] Finished at: 2015-10-23T17:07:38+02:00
+[INFO] Final Memory: 20M/236M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] a4Server
+[INFO] a4Server-ejb
+[INFO] a4Server-ear
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building a4Server 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ a4Server ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ a4Server ---
+[INFO] Installing /Users/acca/UniTN/Corsi/web-architecture/2015/development/assignment4/a4Server/pom.xml to /Users/acca/.m2/repository/it/unitn/dsantoro/a4Server/1.0-SNAPSHOT/a4Server-1.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building a4Server-ejb 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ a4Server-ejb ---
+[INFO] Deleting /Users/acca/UniTN/Corsi/web-architecture/2015/development/assignment4/a4Server/a4Server-ejb/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:copy (default) @ a4Server-ejb ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ a4Server-ejb ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ a4Server-ejb ---
+[INFO] Compiling 3 source files to /Users/acca/UniTN/Corsi/web-architecture/2015/development/assignment4/a4Server/a4Server-ejb/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ a4Server-ejb ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/acca/UniTN/Corsi/web-architecture/2015/development/assignment4/a4Server/a4Server-ejb/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ a4Server-ejb ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ a4Server-ejb ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-ejb-plugin:2.3:ejb (default-ejb) @ a4Server-ejb ---
+[INFO] Building EJB a4Server-ejb-1.0-SNAPSHOT with EJB version 3.1
+[INFO] Building jar: /Users/acca/UniTN/Corsi/web-architecture/2015/development/assignment4/a4Server/a4Server-ejb/target/a4Server-ejb-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ a4Server-ejb ---
+[INFO] Installing /Users/acca/UniTN/Corsi/web-architecture/2015/development/assignment4/a4Server/a4Server-ejb/target/a4Server-ejb-1.0-SNAPSHOT.jar to /Users/acca/.m2/repository/it/unitn/dsantoro/a4Server-ejb/1.0-SNAPSHOT/a4Server-ejb-1.0-SNAPSHOT.jar
+[INFO] Installing /Users/acca/UniTN/Corsi/web-architecture/2015/development/assignment4/a4Server/a4Server-ejb/pom.xml to /Users/acca/.m2/repository/it/unitn/dsantoro/a4Server-ejb/1.0-SNAPSHOT/a4Server-ejb-1.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building a4Server-ear 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ a4Server-ear ---
+[INFO] Deleting /Users/acca/UniTN/Corsi/web-architecture/2015/development/assignment4/a4Server/a4Server-ear/target
+[INFO] 
+[INFO] --- maven-ear-plugin:2.6:generate-application-xml (default-generate-application-xml) @ a4Server-ear ---
+[INFO] Generating application.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ a4Server-ear ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/acca/UniTN/Corsi/web-architecture/2015/development/assignment4/a4Server/a4Server-ear/src/main/resources
+[INFO] 
+[INFO] --- maven-ear-plugin:2.6:ear (default-ear) @ a4Server-ear ---
+[INFO] Copying artifact[ejb:it.unitn.dsantoro:a4Server-ejb:1.0-SNAPSHOT] to[a4Server-ejb-1.0-SNAPSHOT.jar]
+[INFO] Copying artifact[jar:it.unitn.dsantoro:a4Client:1.0-SNAPSHOT] to[lib/a4Client-1.0-SNAPSHOT.jar]
+[INFO] Copying artifact[jar:org.hibernate:hibernate-entitymanager:4.3.1.Final] to[lib/hibernate-entitymanager-4.3.1.Final.jar]
+[INFO] Copying artifact[jar:org.jboss:jboss-ejb-client:2.0.0.Final] to[lib/jboss-ejb-client-2.0.0.Final.jar]
+[INFO] Copying artifact[jar:org.jboss:jboss-remote-naming:2.0.0.Final] to[lib/jboss-remote-naming-2.0.0.Final.jar]
+[INFO] Copying artifact[jar:org.jboss.marshalling:jboss-marshalling:1.4.3.Final] to[lib/jboss-marshalling-1.4.3.Final.jar]
+[INFO] Copying artifact[jar:org.jboss.marshalling:jboss-marshalling-river:1.4.3.Final] to[lib/jboss-marshalling-river-1.4.3.Final.jar]
+[INFO] Copying artifact[jar:org.jboss.remoting:jboss-remoting:4.0.0.Final] to[lib/jboss-remoting-4.0.0.Final.jar]
+[INFO] Copying artifact[jar:org.jboss.sasl:jboss-sasl:1.0.4.Final] to[lib/jboss-sasl-1.0.4.Final.jar]
+[INFO] Copying artifact[jar:org.jboss.spec.javax.ejb:jboss-ejb-api_3.2_spec:1.0.0.Final] to[lib/jboss-ejb-api_3.2_spec-1.0.0.Final.jar]
+[INFO] Copying artifact[jar:org.jboss.xnio:xnio-api:3.2.0.Final] to[lib/xnio-api-3.2.0.Final.jar]
+[INFO] Copying artifact[jar:org.jboss.xnio:xnio-nio:3.2.0.Final] to[lib/xnio-nio-3.2.0.Final.jar]
+[INFO] Copying artifact[jar:org.wildfly:wildfly-build-config:8.0.0.Final] to[lib/wildfly-build-config-8.0.0.Final.jar]
+[INFO] Copying artifact[jar:org.apache.derby:derby:10.12.1.1] to[lib/derby-10.12.1.1.jar]
+[INFO] Copying artifact[jar:org.apache.derby:derbyclient:10.12.1.1] to[lib/derbyclient-10.12.1.1.jar]
+[INFO] Copying artifact[jar:dom4j:dom4j:1.6.1] to[lib/dom4j-1.6.1.jar]
+[INFO] Copying artifact[jar:xml-apis:xml-apis:1.0.b2] to[lib/xml-apis-1.0.b2.jar]
+[INFO] Copying artifact[jar:org.hibernate:hibernate-core:4.3.8.Final] to[lib/hibernate-core-4.3.8.Final.jar]
+[INFO] Copying artifact[jar:org.jboss.logging:jboss-logging:3.1.3.GA] to[lib/jboss-logging-3.1.3.GA.jar]
+[INFO] Copying artifact[jar:org.jboss.logging:jboss-logging-annotations:1.2.0.Beta1] to[lib/jboss-logging-annotations-1.2.0.Beta1.jar]
+[INFO] Copying artifact[jar:org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.0.0.Final] to[lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar]
+[INFO] Copying artifact[jar:org.hibernate.common:hibernate-commons-annotations:4.0.5.Final] to[lib/hibernate-commons-annotations-4.0.5.Final.jar]
+[INFO] Copying artifact[jar:org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final] to[lib/hibernate-jpa-2.1-api-1.0.0.Final.jar]
+[INFO] Copying artifact[jar:org.javassist:javassist:3.18.1-GA] to[lib/javassist-3.18.1-GA.jar]
+[INFO] Copying artifact[jar:antlr:antlr:2.7.7] to[lib/antlr-2.7.7.jar]
+[INFO] Copying artifact[jar:org.jboss:jandex:1.1.0.Final] to[lib/jandex-1.1.0.Final.jar]
+[INFO] Copy ear sources to /Users/acca/UniTN/Corsi/web-architecture/2015/development/assignment4/a4Server/a4Server-ear/target/a4Server-ear-1.0-SNAPSHOT
+[INFO] Including custom manifest file[/Users/acca/UniTN/Corsi/web-architecture/2015/development/assignment4/a4Server/a4Server-ear/target/a4Server-ear-1.0-SNAPSHOT/META-INF/MANIFEST.MF]
+[INFO] Building jar: /Users/acca/UniTN/Corsi/web-architecture/2015/development/assignment4/a4Server/a4Server-ear/target/a4Server-ear-1.0-SNAPSHOT.ear
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ a4Server-ear ---
+[INFO] Installing /Users/acca/UniTN/Corsi/web-architecture/2015/development/assignment4/a4Server/a4Server-ear/target/a4Server-ear-1.0-SNAPSHOT.ear to /Users/acca/.m2/repository/it/unitn/dsantoro/a4Server-ear/1.0-SNAPSHOT/a4Server-ear-1.0-SNAPSHOT.ear
+[INFO] Installing /Users/acca/UniTN/Corsi/web-architecture/2015/development/assignment4/a4Server/a4Server-ear/pom.xml to /Users/acca/.m2/repository/it/unitn/dsantoro/a4Server-ear/1.0-SNAPSHOT/a4Server-ear-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] a4Server ........................................... SUCCESS [  0.266 s]
+[INFO] a4Server-ejb ....................................... SUCCESS [  1.640 s]
+[INFO] a4Server-ear ....................................... SUCCESS [  1.265 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.260 s
+[INFO] Finished at: 2015-10-23T17:07:43+02:00
+[INFO] Final Memory: 24M/308M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building a4Client 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) > validate @ a4Client >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default-cli) < validate @ a4Client <<<
+[WARNING] The POM for unknown.binary:hibernate-jpamodelgen-4.3.1.Final:jar:SNAPSHOT is missing, no dependency information available
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default-cli) @ a4Client ---
+Oct 23, 2015 5:07:49 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.2.0.Final
+Oct 23, 2015 5:07:49 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.2.0.Final
+Oct 23, 2015 5:07:49 PM org.jboss.remoting3.EndpointImpl <clinit>
+INFO: JBoss Remoting version 4.0.0.Final
+Oct 23, 2015 5:07:50 PM org.jboss.ejb.client.remoting.VersionReceiver handleMessage
+INFO: EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+Oct 23, 2015 5:07:50 PM org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver associate
+INFO: EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@7b4e2db0, receiver=Remoting connection EJB receiver [connection=Remoting connection <5d218f78>,channel=jboss.ejb,nodename=sirio]} on channel Channel ID c8303d5d (outbound) of Remoting connection 20abffbf to localhost/127.0.0.1:8080
+Oct 23, 2015 5:07:50 PM org.jboss.ejb.client.EJBClient <clinit>
+INFO: JBoss EJB Client version 2.0.0.Final
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+l
+	User choose to list the business transactions
+	List of all the oepration for user: 1
+
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+s
+	User choose to sell. Default stocks amount is 10
+	User status -> Id: 1 - Money: 1098.8 - Stocks: 40 - Last operation id: 1
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+s
+	User choose to sell. Default stocks amount is 10
+	User status -> Id: 1 - Money: 1198.0 - Stocks: 30 - Last operation id: 2
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 1099.0 - Stocks: 40 - Last operation id: 3
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+s
+	User choose to sell. Default stocks amount is 10
+	User status -> Id: 1 - Money: 1198.9 - Stocks: 30 - Last operation id: 4
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 1099.1 - Stocks: 40 - Last operation id: 5
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 998.8 - Stocks: 50 - Last operation id: 6
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 900.3 - Stocks: 60 - Last operation id: 7
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 799.5 - Stocks: 70 - Last operation id: 8
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 699.7 - Stocks: 80 - Last operation id: 9
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 600.7 - Stocks: 90 - Last operation id: 10
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 500.80002 - Stocks: 100 - Last operation id: 11
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 401.6 - Stocks: 110 - Last operation id: 12
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 302.4 - Stocks: 120 - Last operation id: 13
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 204.5 - Stocks: 130 - Last operation id: 14
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 105.100006 - Stocks: 140 - Last operation id: 15
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 5.700012 - Stocks: 150 - Last operation id: 16
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User can not buy since user money are not enough to buy a minimum amount of 10 stocks.
+	User has: 5.700012 euro left.
+	Total stocks price is: 98.3
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+l
+	User choose to list the business transactions
+	List of all the oepration for user: 1
+	Operation ID: 1 - Stocks: 40 - Money: 1098.8
+	Operation ID: 2 - Stocks: 30 - Money: 1198.0
+	Operation ID: 3 - Stocks: 40 - Money: 1099.0
+	Operation ID: 4 - Stocks: 30 - Money: 1198.9
+	Operation ID: 5 - Stocks: 40 - Money: 1099.1
+	Operation ID: 6 - Stocks: 50 - Money: 998.8
+	Operation ID: 7 - Stocks: 60 - Money: 900.3
+	Operation ID: 8 - Stocks: 70 - Money: 799.5
+	Operation ID: 9 - Stocks: 80 - Money: 699.7
+	Operation ID: 10 - Stocks: 90 - Money: 600.7
+	Operation ID: 11 - Stocks: 100 - Money: 500.80002
+	Operation ID: 12 - Stocks: 110 - Money: 401.6
+	Operation ID: 13 - Stocks: 120 - Money: 302.4
+	Operation ID: 14 - Stocks: 130 - Money: 204.5
+	Operation ID: 15 - Stocks: 140 - Money: 105.100006
+	Operation ID: 16 - Stocks: 150 - Money: 5.700012
+
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+s
+	User choose to sell. Default stocks amount is 10
+	User status -> Id: 1 - Money: 104.80002 - Stocks: 140 - Last operation id: 17
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User status -> Id: 1 - Money: 5.6000137 - Stocks: 150 - Last operation id: 18
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User can not buy since user money are not enough to buy a minimum amount of 10 stocks.
+	User has: 5.6000137 euro left.
+	Total stocks price is: 101.1
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+b
+	User choose to buy. Default stocks amount is 10
+	User can not buy since user money are not enough to buy a minimum amount of 10 stocks.
+	User has: 5.6000137 euro left.
+	Total stocks price is: 98.09999
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+s
+	User choose to sell. Default stocks amount is 10
+	User status -> Id: 1 - Money: 105.10001 - Stocks: 140 - Last operation id: 19
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+l
+	User choose to list the business transactions
+	List of all the oepration for user: 1
+	Operation ID: 1 - Stocks: 40 - Money: 1098.8
+	Operation ID: 2 - Stocks: 30 - Money: 1198.0
+	Operation ID: 3 - Stocks: 40 - Money: 1099.0
+	Operation ID: 4 - Stocks: 30 - Money: 1198.9
+	Operation ID: 5 - Stocks: 40 - Money: 1099.1
+	Operation ID: 6 - Stocks: 50 - Money: 998.8
+	Operation ID: 7 - Stocks: 60 - Money: 900.3
+	Operation ID: 8 - Stocks: 70 - Money: 799.5
+	Operation ID: 9 - Stocks: 80 - Money: 699.7
+	Operation ID: 10 - Stocks: 90 - Money: 600.7
+	Operation ID: 11 - Stocks: 100 - Money: 500.80002
+	Operation ID: 12 - Stocks: 110 - Money: 401.6
+	Operation ID: 13 - Stocks: 120 - Money: 302.4
+	Operation ID: 14 - Stocks: 130 - Money: 204.5
+	Operation ID: 15 - Stocks: 140 - Money: 105.100006
+	Operation ID: 16 - Stocks: 150 - Money: 5.700012
+	Operation ID: 17 - Stocks: 140 - Money: 104.80002
+	Operation ID: 18 - Stocks: 150 - Money: 5.6000137
+	Operation ID: 19 - Stocks: 140 - Money: 105.10001
+
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+l
+	User choose to list the business transactions
+	List of all the oepration for user: 1
+	Operation ID: 1 - Stocks: 40 - Money: 1098.8
+	Operation ID: 2 - Stocks: 30 - Money: 1198.0
+	Operation ID: 3 - Stocks: 40 - Money: 1099.0
+	Operation ID: 4 - Stocks: 30 - Money: 1198.9
+	Operation ID: 5 - Stocks: 40 - Money: 1099.1
+	Operation ID: 6 - Stocks: 50 - Money: 998.8
+	Operation ID: 7 - Stocks: 60 - Money: 900.3
+	Operation ID: 8 - Stocks: 70 - Money: 799.5
+	Operation ID: 9 - Stocks: 80 - Money: 699.7
+	Operation ID: 10 - Stocks: 90 - Money: 600.7
+	Operation ID: 11 - Stocks: 100 - Money: 500.80002
+	Operation ID: 12 - Stocks: 110 - Money: 401.6
+	Operation ID: 13 - Stocks: 120 - Money: 302.4
+	Operation ID: 14 - Stocks: 130 - Money: 204.5
+	Operation ID: 15 - Stocks: 140 - Money: 105.100006
+	Operation ID: 16 - Stocks: 150 - Money: 5.700012
+	Operation ID: 17 - Stocks: 140 - Money: 104.80002
+	Operation ID: 18 - Stocks: 150 - Money: 5.6000137
+	Operation ID: 19 - Stocks: 140 - Money: 105.10001
+
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+q
+Quitting. Hope you had good business !!!
+--> Please tell me if you want to [S]ell, [B]uy, [L]ist transactions or [Q]uit: 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 53.925 s
+[INFO] Finished at: 2015-10-23T17:08:43+02:00
+[INFO] Final Memory: 12M/299M
+[INFO] ------------------------------------------------------------------------
