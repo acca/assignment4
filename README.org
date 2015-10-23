@@ -1,8 +1,80 @@
-#+TITLE: Accessing a DB though an EJB layer (v2 - DB access by session bean)
+#+TITLE: Accessing a DB trough an EJB layer (v2 - DB access by session bean)
 #+AUTHOR: Daniele Santoro
 #+DATE: 22/10/2015
 
 * Introduction
+  Code and documentation are present at this link: https://github.com/acca/assignment4. 
+
+  This application is in the domain of the web application that needs to retrieve features or functionality from a remote service. Indeed the application is composed by both *client* and *server* tiers.
+
+  In respect the the previous assignment, in this case:
+  /In other to keep track of the users transaction, the server also store in its database the information for each transaction./
+
+  I've deployed:
+  - *The client side*: A Standard Java application (SE) which manages the sole interaction with the user, all other features in respect to assignment3  are now moved on the server side.
+  - *The server side*: An Enterprise Java application (EE) which is able to take track of the business transaction performed by a user. It stores them, it computes the actual value of the stocks and it check for right amounts of stock/money before perform the operation.
+
 * Implementation
+  The following are the most important changes in respect to previous assignment:
+  - *UserRemote.java*: Class name is different to empathize it is instantiate on server-side. Indeed this class is no more on the client but on the EE project, deployed on JBoss.
+  - *Sell/Buy*: Those methods now are remote methods. They are called from the client on the remote Bean therefore they are executed on server-side. These methods now return just the output strings back to the user.
+  - *build.sh script*: Just a useful script to automatize the process of /building client, building server, move .ear package on the application server and run the client/. This was useful during the development and testing phase.
 * Deployment
+  In the repository are present two Netbeans project: /a4Client/ and /a4Server/.
+** Requirements
+   1) A JBoss AS must run and accept JNDI (http-remoting) connections on =127.0.0.1:8080=
+   2) A JBoss username (in the ApplicationRealm) with following credentials must be setup:
+      #+BEGIN_EXAMPLE
+      Username: user
+      Password: pw
+      #+END_EXAMPLE
+   3) A Derby DB must run and accept connection on =localhost:1527=
+   4) This is not required but having the JBoss log open on another shell can be useful to see what's going on:
+      #+BEGIN_EXAMPLE
+      cd $JBOSS_HOME/standalone/log
+      tail -f server.log
+      #+END_EXAMPLE
+** Deploy & Run
+   It is possible to run the application from inside Netbeans but the Maven plugin must be installed, otherwise follow these steps:
+   1) Download the repository using git:
+      #+BEGIN_EXAMPLE
+      git clone [[https://github.com/acca/assignment4.git]]
+      #+END_EXAMPLE
+   2) Move into the project main folder
+      #+BEGIN_EXAMPLE
+      cd assignment4
+      #+END_EXAMPLE
+   3) Build the EE application
+      #+BEGIN_EXAMPLE
+      mvn install -f a4Server/
+      #+END_EXAMPLE
+      Both a4Server-ejb and a4Server-ear should be deployed. If not run the command for each one:
+      #+BEGIN_EXAMPLE
+      mvn install -f a4Server/a4Server-ejb
+      mvn install -f a4Server/a4Server-ear
+      #+END_EXAMPLE
+   4) Move the generated =a4Server-ear-1.0-SNAPSHOT.ear.= file into the JBoss deployment folder
+      #+BEGIN_EXAMPLE
+      cp a4Server/a4Server-ear/target/a4Server-ear-1.0-SNAPSHOT.ear $JBOSS_HOME/standalone/deployments/
+      #+END_EXAMPLE
+      In the JBoss log you should see messages saying the application has been successfully deployed.
+   5) Build and run the SE application
+      #+BEGIN_EXAMPLE
+      mvn exec:java -f a4Client/
+      #+END_EXAMPLE
+   6) Follow on-screen instructions and see the JBoss log
+   
+   Alternatively, run the bash script which automatize the deployment and start the application. (Start JBoss and Derby before)
+   #+BEGIN_EXAMPLE
+   bash build.sh
+   #+END_EXAMPLE
+** Screen-shots
+   Since the output is quite verbose, here are links to logs files which are included in the repository.
+   1) Application build and run output
+   2) JBoss start-up output
+   3) JBoss output during application run
+      
+   Here is the clean output of a run:
+   #+INCLUDE: "./logs/app-run.txt" example
+
 * Comments and notes
