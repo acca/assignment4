@@ -70,11 +70,11 @@
    #+END_EXAMPLE
 ** Screen-shots
    Since the output is quite verbose, here are links to logs files which are included in the repository.
-   1) Application build and run output
-   2) JBoss start-up output
-   3) JBoss output during application run
-      
-   Here is the clean output of a run:
+   1) [[https://github.com/acca/assignment4/blob/master/logs/app-build%252Brun.txt][Application build and run output]]
+   2) [[https://github.com/acca/assignment4/blob/master/logs/jboss-startup.txt][Application build and run output]]
+   3) [[https://github.com/acca/assignment4/blob/master/logs/jboss-app.txt][JBoss output during application run]]
+   4) [[https://github.com/acca/assignment4/blob/master/logs/app-run.txt][Here is the clean output of a run]]:
+   
    #+INCLUDE: "./logs/app-run.txt" example
 
 * Comments and notes
