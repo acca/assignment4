@@ -5,19 +5,16 @@
  */
 package it.unitn.dsantoro.a4server;
 
-//import it.unitn.dsantoro.a4server.TradeRemote;
 import java.util.List;
 import java.util.Random;
-//import javax.ejb.Stateful;
-import javax.ejb.Stateless;
+import javax.ejb.Stateful;
 import org.hibernate.Session;
-
 
 /**
  *
  * @author Daniele Santoro <daniele.santoro@studenti.unitn.it>
  */
-@Stateless
+@Stateful
 public class Trade implements TradeRemote {
 
     private static final float NOMINAL_PRICE = 10;
@@ -26,13 +23,6 @@ public class Trade implements TradeRemote {
 
     public Trade () {        
         ruser = new RemoteUser();
-//        Session session = HibernateUtil.getSessionFactory().openSession();
-//        session.beginTransaction();        
-//        session.save(ruser);
-//        ruser = readDb(ruser);
-//        ruser.toString();
-//        session.getTransaction().commit();
-//        session.close();           
     }
     
     @Override
